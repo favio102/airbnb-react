@@ -24,7 +24,6 @@ class App extends Component {
       this.setState({
         flats: data,
         allFlats: data,
-        // selectedFlat: data[4]
       });
     })
   }
@@ -41,7 +40,6 @@ class App extends Component {
       flats: this.state.allFlats.filter((flat) => new RegExp(event.target.value, "i").exec(flat.name))
     })
   }
-
 
   render() {
     let center = {
@@ -91,4 +89,5 @@ class App extends Component {
     );
   }
 }
+
 export default App;

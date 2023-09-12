@@ -63,6 +63,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
+After every change in the code run:
+
+`git add .`
+`git commit -m "New commit"`
+`git push`
+
+And lastly run:
+`yarn deploy`
+
+Check actions - Github pages and see the latest version of your site.
+
+### `yarn run build` fails to minify
+
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `yarn run build` fails to minify
