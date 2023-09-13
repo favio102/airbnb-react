@@ -1,13 +1,15 @@
 .marker {
   width: 50px;
-  background-color: white;
-  border: 1px solid #999;
-  border-radius: 2px;
+  background-color: rgb(155, 162, 237);
+  border: 1px solid #160348;
+  border-radius: 5px;
   text-align: center;
   font-size: 10px;
   padding: 4px 0;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 74%, 59% 74%, 75% 100%, 40% 74%, 0 72%);
+clip-path: polygon(0% 0%, 100% 0%, 100% 74%, 59% 74%, 75% 100%, 40% 74%, 0 72%);
 }
 .marker.selected {
-  background-color: rgb(210, 182, 19);
+  background-color: rgb(70, 18, 212);
   border-color: rgb(216, 7, 7);
 }

@@ -5,7 +5,7 @@
   flex-basis: 60%;
   display: flex;
   flex-direction: column;
-  background-color: rgba(121, 200, 232, 0.379);
+  /* background-color: rgba(121, 200, 232, 0.379); */
 }
 .title h1 {
 text-align: center;
@@ -21,7 +21,7 @@ margin: 1.5rem;
 }
 .search {
   padding: 13px;
-  margin-right: 5px;
+  margin-right: 13px;
 }
 .search input {
   width: 100%;
