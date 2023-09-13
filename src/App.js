@@ -56,7 +56,7 @@ class App extends Component {
       <div className='app'>
         <div className='main'>
           <div className='title'>
-            <h1>AirBnb</h1>
+            <h1>🅰🅸🆁-🅱🅽🅱</h1>
             <h3>"Where Adventure Begins and Memories Last Forever"</h3>
           </div>
           <div className='search'>

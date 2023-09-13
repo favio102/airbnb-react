@@ -9,15 +9,20 @@
 }
 .title h1 {
 text-align: center;
-font-family: 'Courier New', Courier, monospace;
+/* font-family: 'Courier New', Courier, monospace; */
+font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 40px;
 margin: 1.5rem;
+color: rgb(53, 20, 118);
+
 }
 .title h3 {
   font-style: oblique;
   font-family: cursive;
   text-align: center;
   margin: 1rem;
+  color: rgb(20, 20, 86);
+  font-size: 20px;
 }
 .search {
   padding: 13px;
